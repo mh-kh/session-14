@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    width: 900px;
+    margin: 0 auto;
+}
+.page1{
+    background-image: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: -550px -170px;
+    height: 100vh;
+    text-align: center;
+}
+.page1 h1{
+    margin-bottom: 20px;
+    padding-top: 180px;
+    color: white;
+
+}
+
+.page1 h4{
+    margin-bottom: 20px;
+    color: white;
+    word-spacing: 3px;
+}
+.page1 p{
+    color: rgb(245, 245, 245);
+    word-spacing: 3px;
+}
+.page2{
+    background-color: rgb(45, 45, 45);
+    text-align: center;
+}
+.page2 .ti{
+    padding-top: 20px;
+}
+.page2 h4{
+    margin-bottom: 20px;
+    color: white;
+}
+.page2 button{
+    background-color: rgb(150, 0, 0);
+    border: 0;
+    height: 30px;
+    width: 125px;
+    border-radius: 3px;
+}
+.page2 button a{
+    color: white;
+}
+.page2 p{
+    color: rgb(200, 200, 200);
+}
+.page2 button{
+    margin: 20px 0px;
+}
+.page2 .pa1{
+    margin-bottom: 30px;
+}
+.page2 img{
+    position: relative;
+    left: -20px;
+    width: 900px;
+}
+.page3{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+.page3 h4{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.page3 p{
+    margin-bottom: 15px;
+}
+.page3 button{
+    height: 30px;
+    width: 70px;
+    background-color: rgb(10, 9, 54);
+    border: 0;
+    border-radius: 3px;
+}
+.page3 button a{
+    color: white;
+}
+.page3 img{
+    width: 900px;
+}
+.page4 .p3{
+    background-image: url(../img/section-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-position: 0px -335px;
+    background-size: 100% 900px;
+    text-align: center;
+}
+.page4 .p3 h4{
+    color: white;
+    padding-top: 160px;
+    padding-bottom: 90px;
+}
+.page4 .p3 p{
+    color: rgb(200, 200, 200);
+    padding-bottom: 220px;
+    word-spacing: 2px;
+    
+}
+.page4{
+    background-color: rgb(230, 230, 230);
+}
+.page4 img{
+    width: 400px;
+}
+.giftcard .inf{
+    width: 500px;
+    position: relative;
+    left: 400px;
+    margin-top: 100px;
+}
+.giftcard img{
+    position: relative;
+    top: -240px;
+    left: 180px;
+}
+.giftcard .inf a{
+    color: rgb(82, 81, 165);
+}
+.giftcard .inf h4{
+    margin-bottom: 20px;
+}
+.giftcard .inf p{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgb(30, 30, 30);
+}
+footer::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.d{
+    float: left;
+    padding: 20px 35px;
+}
+.d h4{
+    margin-bottom: 10px;
+    color: white;
+}
+.d a{
+    color: rgb(138, 138, 138);
+}
+.d hr{
+    margin-bottom: 10px;
+}
+.copyright{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
